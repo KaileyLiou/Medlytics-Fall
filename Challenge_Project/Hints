@@ -1,0 +1,13 @@
+Replace the "?" values with np.nan.
+Identify columns with numeric data and categorical data.
+Convert numeric columns from strings to actual numbers using pd.to_numeric().
+Drop columns with constant values like TBG Measured.
+Use regular expressions to remove the patient number in the 'Class' column.
+Convert 'Class' feature to binary classification (positive/negative).
+Use count() to check for missing values and drop rows with missing data.
+Use pandas.corr() to find correlations between features.
+Use seaborn.pairplot() to visualize relationships.
+Drop categorical features that have a single unique value.
+Use pandas.get_dummies() to convert categorical columns into indicator variables.
+Split data into training and testing sets using train_test_split().
+Use DecisionTreeClassifier() for model training
